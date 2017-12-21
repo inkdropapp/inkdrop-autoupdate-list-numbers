@@ -1,15 +1,12 @@
 {
-  "name": "paste-as-markdown",
+  "name": "autoupdate-list-numbers",
   "main": "./lib/index.js",
   "version": "0.0.0",
-  "description": "Paste Markdown automatically converted from HTML copied on a browser",
+  "description": "It automatically increments remaining Markdown list numbers when a new item is added to the middle of a list.",
   "keywords": [
-    "markdown",
-    "turndown",
-    "to-markdown",
-    "remark"
+    "markdown"
   ],
-  "repository": "https://github.com/inkdropapp/inkdrop-paste-as-markdown",
+  "repository": "https://github.com/inkdropapp/inkdrop-autoupdate-list-numbers",
   "author": "Takuya Matsuyama <hi@craftz.dog>",
   "license": "MIT",
   "scripts": {
@@ -20,11 +17,6 @@
     "inkdrop": ">=3.17.3 <4.0.0"
   },
   "dependencies": {
-    "remark-parse": "^4.0.0",
-    "remark-stringify": "^4.0.0",
-    "remark-strip-html": "^1.0.0",
-    "to-markdown": "^3.1.1",
-    "unified": "^6.1.6"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
