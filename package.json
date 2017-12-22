@@ -16,8 +16,7 @@
   "engines": {
     "inkdrop": ">=3.17.3 <4.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.1",
