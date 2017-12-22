@@ -12,7 +12,7 @@ export function runCommand (cm) {
     const pos = ranges[i].head
     const line = cm.getLine(pos.line)
     const match = listRE.exec(line)
-    if (!emptyListRE.test(line)) {
+    if (match && !emptyListRE.test(line)) {
       const numbered = !(unorderedListRE.test(match[2]) || match[2].indexOf('>') >= 0)
       if (numbered) incrementRemainingMarkdownListNumbers(cm, pos)
     }
