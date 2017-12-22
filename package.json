@@ -1,7 +1,7 @@
 {
   "name": "autoupdate-list-numbers",
   "main": "./lib/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It automatically increments remaining Markdown list numbers when a new item is added to the middle of a list.",
   "keywords": [
     "markdown"
